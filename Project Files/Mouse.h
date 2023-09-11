@@ -2,7 +2,7 @@
 #define MOUSE_H
 #include "tigr.h"
 
-//returns 1 if mouse is clicked, 0 otherwise.
+//returns 1 if mouse is clicked, 0 otherwise...
 int MouseClick(Tigr* screen);
 
 #endif
