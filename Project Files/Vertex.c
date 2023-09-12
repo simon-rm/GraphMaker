@@ -48,23 +48,22 @@ void AddEdge(int vertexIndex1, int vertexIndex2, int weight) {
 
 void SetWeight(int edge[2], int weight) {
 
-if(Connected(edge[0], edge[1])){
+    if (Connected(edge[0], edge[1])) {
 
-	//loops twice, once for each vertex
-	for (int ver = 0; ver <= 1; ver++) { 
-		int vertex1 = edge[ver];
-		int vertex2 = edge[1 - ver];
+        //loops twice, once for each vertex
+        for (int ver = 0; ver <= 1; ver++) {
+            int vertex1 = edge[ver];
+            int vertex2 = edge[1 - ver];
 
-		for (int con = 0; con < vertexList[vertex1].connectionCount; con++) {
-			if (vertexList[vertex1].connectedVertices[con].index == vertex2) {
-				vertexList[vertex1].weights[con] = weight;
-		 	}
- 		}
-  }
-	}
-else {
-perror("error: tried to set weight of non-existing edge");
-}
+            for (int con = 0; con < vertexList[vertex1].connectionCount; con++) {
+                if (vertexList[vertex1].connectedVertices[con].index == vertex2) {
+                    vertexList[vertex1].weights[con] = weight;
+                }
+            }
+        }
+    } else {
+        perror("error: tried to set weight of non-existing edge");
+    }
 }
 
 void VertexFree() {
