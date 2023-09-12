@@ -26,7 +26,7 @@
 ///Draw weighted edges between vertices
 void DrawEdges(Tigr* screen, int vertexCount, const Vertex vertexList[]);
 
-//Draw indexed vertices
+///Draw indexed vertices
 void DrawVertices(Tigr* screen, int selectedVertex, int vertexCount, const Vertex vertexList[]);
 
 
