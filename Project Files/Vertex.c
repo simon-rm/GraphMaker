@@ -50,7 +50,7 @@ void SetWeight(int edge[2], int weight) {
 
     if (Connected(edge[0], edge[1])) {
 
-        ///loops twice, once for each vertex
+        ////loops twice, once for each vertex
         for (int ver = 0; ver <= 1; ver++) {
             int vertex1 = edge[ver];
             int vertex2 = edge[1 - ver];
