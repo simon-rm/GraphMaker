@@ -23,7 +23,7 @@
 #define DIJKSTRA_RESULT_MAX_LEN 1000
 #define DIJKSTRA_LINE_MAX_LEN 50
 
-///Draw weighted edges between vertices
+//Draw weighted edges between vertices
 void DrawEdges(Tigr* screen, int vertexCount, const Vertex vertexList[]);
 
 //Draw indexed vertices
