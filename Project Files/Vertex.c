@@ -61,7 +61,8 @@ void SetWeight(int edge[2], int weight) {
                 }
             }
         }
-    } else {
+    }
+    else {
         perror("error: tried to set weight of non-existing edge");
     }
 }
