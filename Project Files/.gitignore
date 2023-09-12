@@ -1,4 +1,4 @@
 # Project exclude paths.
 /cmake-build-debug/
-/CMakeLists.txt
-/.gitignore
+/Project Files/CMakeLists.txt
+/Project Files/.gitignore
