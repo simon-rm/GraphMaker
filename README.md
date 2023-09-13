@@ -36,4 +36,4 @@ gcc -o GraphMaker.exe tigr.c Mouse.c Vertex.c Dijkstra.c OperationManager.c main
 
 
 PD:
-Actualmente, no se por que, el programa no ejecuta correctamente en linux ni wsl, solo en windows con MINGW, es algo a corregir mas adelante.
+Actualmente, no se por que, el programa no compila debidamente en linux ni wsl, solo en windows con MINGW, es algo a corregir mas adelante.
