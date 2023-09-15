@@ -1,5 +1,5 @@
 # GraphMaker
-A (very) simple program for drawing graphs (i.e vertices and edges). Written in C using the TIny GRaphics library.
+Un (muy) simple programa para dibujar grafos (i.e vértices y aristas). Escrito en C usando la biblioteca TIny GRaphics.
 
 Hola chicxs! Como andan? GraphMaker es un proyectito que dibuja grafos con la idea de que si cualquiera quiere aportar codigo lo pueda hacer facilmente.
 Para aportar codigo a graph maker, debes:
