@@ -1,3 +1,4 @@
+//aqui estuvo: 
 #ifdef _MSC_VER ///this is so VS lets you use printf instead of s_printf, and so on
 #define _CRT_SECURE_NO_WARNINGS
 #endif
