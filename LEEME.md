@@ -19,7 +19,7 @@ Para aportar codigo, realizar cambios, crear funciones, etc. debes seguir los si
 12. click en el gatito github -> chirimbolito al lado de "solicitudes de incorporacion de cambios" -> al lado de MERGE -> "cambiar repositorio" -> "TuUsuario/GraphMaker" -> "master"
 13. donde dice "Master" arriba de description escribi el titulo "Mi primer contribucion"
 14. En description escribi "Agregue mi nombre delante de //aqui estuvo:"
-15 click en "Create"
+15. click en "Create"
 16. Felicidades! Realizaste tu primera contribucion :) una vez que sea aceptada, la veras reflejada en github.com/simon2375/GraphMaker
 
 Para volver a contribuir, repeti los pasos 6-15
