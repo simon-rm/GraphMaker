@@ -4,9 +4,9 @@
 int MouseClick(Tigr* screen) {
     int xPos, yPos, newPress;
     static int mousePressed = 0;
-    int mouseClicked = 0; // = tigrTouch(screen, &point, 1);// get mouse input
+    int mouseClicked = 0; 
 
-    tigrMouse(screen, &xPos, &yPos, &newPress);
+    tigrMouse(screen, &xPos, &yPos, &newPress); //get mouse input
     if (newPress && !mousePressed) { //when the user clicks...
         mousePressed = 1;
         mouseClicked = 1;
